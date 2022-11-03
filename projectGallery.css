@@ -1,0 +1,60 @@
+body {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  background-color: lightcoral;
+}
+
+header {
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+
+  padding: 0%;
+  margin: auto;
+}
+
+.card {
+  width: 150px;
+  display: flex;
+  flex-flow: row;
+  flex: auto;
+  max-width: 300px;
+  padding: 5px;
+  margin: 10px;
+  background-color: aliceblue;
+  transition: all 1s ease;
+  text-align: center;
+}
+
+.headingTwo {
+  text-align: center;
+  flex: 1;
+  font-size: medium;
+}
+
+.sectionImg {
+  width: fit-content;
+  flex: 1;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.summary {
+  text-align: center;
+  flex: 1;
+  max-height: 70px;
+  overflow: scroll;
+}
+
+.button {
+  min-width: fit-content;
+  background-color: lightpink;
+  border-radius: 10px;
+  text-align: center;
+}
