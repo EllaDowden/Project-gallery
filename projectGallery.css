@@ -1,6 +1,5 @@
 body {
-  font-size: 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 90vw;
   margin: auto;
   background-color: lightcoral;
 }
@@ -14,22 +13,21 @@ header {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-
+  align-items: center;
   padding: 0%;
   margin: auto;
 }
 
 .card {
-  width: 150px;
   display: flex;
-  flex-flow: row;
-  flex: auto;
+  flex-flow: column;
+  flex: 300px;
   max-width: 300px;
   padding: 5px;
-  margin: 10px;
+  margin: 20px;
+  margin-bottom: 5px;
   background-color: aliceblue;
-  transition: all 1s ease;
-  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .headingTwo {
@@ -39,22 +37,24 @@ header {
 }
 
 .sectionImg {
-  width: fit-content;
-  flex: 1;
+  width: 50%;
+  background-size: cover;
+  background-position: cover cover;
+  align-items: center;
   border-radius: 10px;
-  text-align: center;
+  margin: 5px;
 }
 
 .summary {
   text-align: center;
   flex: 1;
   max-height: 70px;
-  overflow: scroll;
+  overflow: visible;
 }
 
 .button {
   min-width: fit-content;
   background-color: lightpink;
-  border-radius: 10px;
-  text-align: center;
+  border-radius: 20px;
+  align-items: center;
 }
