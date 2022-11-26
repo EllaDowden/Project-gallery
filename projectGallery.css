@@ -53,6 +53,7 @@ p {
   flex: 300px;
   align-items: center;
   max-width: 300px;
+  max-height: 500px;
   padding: 5px;
   margin: 20px;
   margin-bottom: 5px;
@@ -63,7 +64,7 @@ p {
 .headingTwo {
   text-align: center;
   flex: 1;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .sectionImg {
@@ -79,6 +80,7 @@ p {
   flex: 1;
   max-height: 70px;
   overflow: visible;
+  text-size-adjust: 10px;
 }
 
 .linkButton {
